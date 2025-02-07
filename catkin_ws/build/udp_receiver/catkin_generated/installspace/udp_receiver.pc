@@ -1,0 +1,8 @@
+prefix=/home/tucss/Documents/catkin_ws/install
+
+Name: udp_receiver
+Description: Description of udp_receiver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,9 @@
+digraph G {
+"odom" -> "base_link"[label=" Broadcaster: /ekf_se_odom\nAverage rate: 19.814\nBuffer length: 4.946\nMost recent transform: 1738103473.169\nOldest transform: 1738103468.222\n"];
+"base_link" -> "laser_frame"[label=" Broadcaster: /udp_dialog\nAverage rate: 10.109\nBuffer length: 4.946\nMost recent transform: 1738103473.169\nOldest transform: 1738103468.222\n"];
+"base_link" -> "imu_frame"[label=" Broadcaster: /udp_dialog\nAverage rate: 10.109\nBuffer length: 4.946\nMost recent transform: 1738103473.169\nOldest transform: 1738103468.222\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1738103473.2223368"[ shape=plaintext ] ;
+}->"odom";
+}

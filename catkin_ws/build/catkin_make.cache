@@ -1,0 +1,2 @@
+beginner_tutorials:teleop_twist_keyboard:udp_receiver
+-DCATKIN_DEVEL_PREFIX=/home/tucss/Documents/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tucss/Documents/catkin_ws/install -G Unix Makefiles
